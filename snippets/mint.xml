@@ -5,7 +5,7 @@
 	<remote name="pixel-gitlab" fetch="https://gitlab.pixelexperience.org/android" revision="ten" />
 	<remote name="gitlab-pixel" fetch="https://gitlab.com/PixelExperience" revision="ten" />
 	<remote name="github-ssh" fetch="ssh://git@github.com" />
-        <remote name="mint" fetch="git@github.com:MintOS-Reloaded" revision="lineage-17.1-test" />
+        <remote name="mint" fetch="https://github.com/MintOS-Reloaded" revision="lineage-17.1-test" />
 
 	<!-- core system -->
 	<project path="libcore" name="android_libcore" remote="mint" groups="pdk" />
