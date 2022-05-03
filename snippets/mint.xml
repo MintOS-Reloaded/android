@@ -5,7 +5,7 @@
 	<remote name="pixel-gitlab" fetch="https://gitlab.pixelexperience.org/android" revision="ten" />
 	<remote name="gitlab-pixel" fetch="https://gitlab.com/PixelExperience" revision="ten" />
 	<remote name="github-ssh" fetch="ssh://git@github.com" />
-        <remote name="mint" fetch="https://github.com/MintOS-Reloaded" revision="lineage-17.1-test" />
+        <remote name="mint" fetch="https://github.com/MintOS-Revived" revision="lineage-17.1" />
 
 	<!-- core system -->
 	<project path="libcore" name="android_libcore" remote="mint" groups="pdk" />
@@ -22,7 +22,7 @@
 
 	<!-- vendor/extra -->
 	<project name="android_vendor_extra" path="vendor/extra" remote="mint" />
-	<project name="Mint-OS" path="vendor/ota" remote="mint" revision="ota" />
+	<!-- project name="Mint-OS" path="vendor/ota" remote="mint" revision="ota" / -->
 
 	<!-- device PL2
 	<project path="vendor/nokia" name="TheMuppets/proprietary_vendor_nokia" /> -->
@@ -49,7 +49,4 @@
 	<!-- Dependencies -->
 	<project path="external/bson" name="LineageOS/android_external_bson" />
 	<project path="system/qcom" name="LineageOS/android_system_qcom" />
-
-	<!-- updater fork -->
-	<project path="packages/apps/Updater" name="SirRGB/android_packages_apps_Updater" remote="github" revision="Mint" />
 </manifest>
