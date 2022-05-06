@@ -1,4 +1,4 @@
-LineageOS
+MintOS Revived
 ===========
 
 Getting started
