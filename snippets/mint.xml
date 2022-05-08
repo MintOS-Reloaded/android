@@ -35,7 +35,7 @@
 	<project path="kernel/volla/mt6763" name="wikomeme/android_kernel_volla_mt6763" remote="github" />
 	<project path="vendor/volla/yggdrasil" name="wikomeme/android_vendor_volla_yggdrasil" remote="github" revision="master" /> -->
 
-	<!-- device msm8937-common -->
+	<!-- device msm8937-common
 	<project path="device/motorola/ahannah" name="moto-msm8937/android_device_motorola_ahannah" />
 	<project path="device/motorola/cedric" name="moto-msm8937/android_device_motorola_cedric" />
 	<project path="device/motorola/hannah" name="moto-msm8937/android_device_motorola_hannah" />
@@ -44,9 +44,9 @@
 	<project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="e54741e7e88feb90d5c92311ef740684a9943c45" />
 	<project path="device/motorola/rhannah" name="moto-msm8937/android_device_motorola_rhannah" />
 	<project path="kernel/motorola/msm8953" name="Mint-OS/android_kernel_motorola_msm8953" />
-	<project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" />
+	<project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" / -->
 
-	<!-- Dependencies -->
+	<!-- Dependencies
 	<project path="external/bson" name="LineageOS/android_external_bson" />
-	<project path="system/qcom" name="LineageOS/android_system_qcom" />
+	<project path="system/qcom" name="LineageOS/android_system_qcom" / -->
 </manifest>
