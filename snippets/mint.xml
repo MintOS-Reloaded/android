@@ -7,6 +7,8 @@
 	<remote name="github-ssh" fetch="ssh://git@github.com" />
         <remote name="mint" fetch="https://github.com/MintOS-Revived" revision="lineage-17.1" />
 
+	<project path="android" name="android" remote="mint" revision="mint2" />
+
 	<!-- core system -->
 	<project path="libcore" name="android_libcore" remote="mint" groups="pdk" />
 	<project path="frameworks/base" name="android_frameworks_base" remote="mint" groups="pdk-cw-fs,pdk-fs" />
@@ -22,6 +24,4 @@
 
 	<!-- vendor/extra -->
 	<project name="android_vendor_extra" path="vendor/extra" remote="mint" />
-	<!-- project name="Mint-OS" path="vendor/ota" remote="mint" revision="ota" / -->
-
 </manifest>
